@@ -1,0 +1,5 @@
+idade = int(input("Digite sua idade: "))
+pode_votar = (idade >= 16)
+pode_dirigir = (idade >= 18)
+print("Pode votar:", pode_votar)
+print("Pode dirigir:", pode_dirigir)
